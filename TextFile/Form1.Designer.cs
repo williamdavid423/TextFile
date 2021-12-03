@@ -130,14 +130,14 @@
             this.removeButton.Name = "removeButton";
             this.removeButton.Size = new System.Drawing.Size(155, 46);
             this.removeButton.TabIndex = 13;
-            this.removeButton.Text = "Remove Colour";
+            this.removeButton.Text = "Remove";
             this.removeButton.UseVisualStyleBackColor = true;
             this.removeButton.Click += new System.EventHandler(this.removeButton_Click);
             // 
             // name2Label
             // 
             this.name2Label.AutoSize = true;
-            this.name2Label.Location = new System.Drawing.Point(33, 213);
+            this.name2Label.Location = new System.Drawing.Point(44, 213);
             this.name2Label.Name = "name2Label";
             this.name2Label.Size = new System.Drawing.Size(84, 29);
             this.name2Label.TabIndex = 37;
@@ -145,7 +145,7 @@
             // 
             // nameRemove
             // 
-            this.nameRemove.Location = new System.Drawing.Point(155, 217);
+            this.nameRemove.Location = new System.Drawing.Point(134, 210);
             this.nameRemove.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.nameRemove.Name = "nameRemove";
             this.nameRemove.Size = new System.Drawing.Size(99, 34);
@@ -153,7 +153,7 @@
             // 
             // scoreRemoveButton
             // 
-            this.scoreRemoveButton.Location = new System.Drawing.Point(286, 209);
+            this.scoreRemoveButton.Location = new System.Drawing.Point(248, 202);
             this.scoreRemoveButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.scoreRemoveButton.Name = "scoreRemoveButton";
             this.scoreRemoveButton.Size = new System.Drawing.Size(155, 50);
@@ -165,7 +165,7 @@
             // scoreLabel
             // 
             this.scoreLabel.AutoSize = true;
-            this.scoreLabel.Location = new System.Drawing.Point(33, 158);
+            this.scoreLabel.Location = new System.Drawing.Point(44, 167);
             this.scoreLabel.Name = "scoreLabel";
             this.scoreLabel.Size = new System.Drawing.Size(83, 29);
             this.scoreLabel.TabIndex = 34;
@@ -173,7 +173,7 @@
             // 
             // scoreInput
             // 
-            this.scoreInput.Location = new System.Drawing.Point(155, 164);
+            this.scoreInput.Location = new System.Drawing.Point(134, 164);
             this.scoreInput.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.scoreInput.Name = "scoreInput";
             this.scoreInput.Size = new System.Drawing.Size(99, 34);
@@ -182,7 +182,7 @@
             // nameLabel
             // 
             this.nameLabel.AutoSize = true;
-            this.nameLabel.Location = new System.Drawing.Point(33, 129);
+            this.nameLabel.Location = new System.Drawing.Point(44, 126);
             this.nameLabel.Name = "nameLabel";
             this.nameLabel.Size = new System.Drawing.Size(84, 29);
             this.nameLabel.TabIndex = 32;
@@ -190,7 +190,7 @@
             // 
             // nameInput
             // 
-            this.nameInput.Location = new System.Drawing.Point(155, 126);
+            this.nameInput.Location = new System.Drawing.Point(134, 126);
             this.nameInput.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.nameInput.Name = "nameInput";
             this.nameInput.Size = new System.Drawing.Size(99, 34);
@@ -198,7 +198,7 @@
             // 
             // addScoreButton
             // 
-            this.addScoreButton.Location = new System.Drawing.Point(286, 126);
+            this.addScoreButton.Location = new System.Drawing.Point(248, 126);
             this.addScoreButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.addScoreButton.Name = "addScoreButton";
             this.addScoreButton.Size = new System.Drawing.Size(155, 50);
@@ -209,7 +209,7 @@
             // 
             // sortScoresButton
             // 
-            this.sortScoresButton.Location = new System.Drawing.Point(286, 52);
+            this.sortScoresButton.Location = new System.Drawing.Point(248, 52);
             this.sortScoresButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.sortScoresButton.Name = "sortScoresButton";
             this.sortScoresButton.Size = new System.Drawing.Size(155, 46);
@@ -220,7 +220,7 @@
             // 
             // saveScoresButton
             // 
-            this.saveScoresButton.Location = new System.Drawing.Point(286, 476);
+            this.saveScoresButton.Location = new System.Drawing.Point(248, 476);
             this.saveScoresButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.saveScoresButton.Name = "saveScoresButton";
             this.saveScoresButton.Size = new System.Drawing.Size(155, 46);
@@ -231,7 +231,7 @@
             // 
             // loadScoresButton
             // 
-            this.loadScoresButton.Location = new System.Drawing.Point(38, 52);
+            this.loadScoresButton.Location = new System.Drawing.Point(49, 52);
             this.loadScoresButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.loadScoresButton.Name = "loadScoresButton";
             this.loadScoresButton.Size = new System.Drawing.Size(155, 46);
@@ -243,14 +243,14 @@
             // scoreOutput
             // 
             this.scoreOutput.BackColor = System.Drawing.Color.White;
-            this.scoreOutput.Location = new System.Drawing.Point(33, 267);
+            this.scoreOutput.Location = new System.Drawing.Point(47, 267);
             this.scoreOutput.Name = "scoreOutput";
-            this.scoreOutput.Size = new System.Drawing.Size(408, 197);
+            this.scoreOutput.Size = new System.Drawing.Size(356, 197);
             this.scoreOutput.TabIndex = 26;
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.groupBox1.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.groupBox1.Controls.Add(this.scoreRemoveButton);
             this.groupBox1.Controls.Add(this.name2Label);
             this.groupBox1.Controls.Add(this.scoreOutput);
@@ -268,14 +268,14 @@
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(468, 538);
+            this.groupBox1.Size = new System.Drawing.Size(458, 538);
             this.groupBox1.TabIndex = 38;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Objects";
             // 
             // groupBox2
             // 
-            this.groupBox2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.groupBox2.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.groupBox2.Controls.Add(this.loadColoursButton);
             this.groupBox2.Controls.Add(this.colourOutput);
             this.groupBox2.Controls.Add(this.removeInput);
@@ -298,8 +298,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Silver;
-            this.ClientSize = new System.Drawing.Size(1054, 595);
+            this.BackColor = System.Drawing.Color.Black;
+            this.ClientSize = new System.Drawing.Size(1043, 595);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
