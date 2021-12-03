@@ -198,7 +198,7 @@
             // 
             // addScoreButton
             // 
-            this.addScoreButton.Location = new System.Drawing.Point(248, 126);
+            this.addScoreButton.Location = new System.Drawing.Point(248, 136);
             this.addScoreButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.addScoreButton.Name = "addScoreButton";
             this.addScoreButton.Size = new System.Drawing.Size(155, 50);
